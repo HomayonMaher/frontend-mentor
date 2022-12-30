@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+background-color: #f0f0f0;
+}
+
+img {
+  width: 90%;
+  height: auto;
+  border-radius: 4%;
+}
+
+.Background {
+  background-color:#d5e1ef;
+  margin: 100px 50px;
+  padding: 100px 300px;
+  box-shadow: 0 10px 30px 0 #dcdcdc;
+}
+
+.descrption {
+  background-color: white;
+  padding-top: 10px;
+  width: 35%;
+  padding-bottom: 20px;
+  margin: auto;
+  border-radius: 4%;
+}
+
+h4 {
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+p{
+  font-size: 0.75rem;
+  color: #a2a4a9;
+  width: 85%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.line{
+  border-left: 10px dotted ;
+  height: 100px;
+  position: absolute;
+  top: 360px;
+  left: 10px;
+  color: #69bfcf;
+}
+.line2{
+  border-left: 10px dotted ;
+  height: 100px;
+  position: absolute;
+  top: 360px;
+  left: -5px;
+  color: #69bfcf;
+}
+
+.circle{
+  border: 10px solid #d5e1ef;
+  height:200px;
+  width: 200px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -175px;
+  right: 0;
+}
+
+.line3{
+  height: 200px;
+  width: 10px;
+  background: #d5e1ef;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 350px;
+  top: 670px;
+
+}
+
+.line4{
+  height: 200px;
+  width: 10px;
+  background: #d5e1ef;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 400px;
+  top: 670px;
+}
+
+.line5{
+  border: 10px;
+  height: 60px;
+  width: 10px;
+  background: #f8c9c5;
+  position: absolute;
+  top: 0;
+  left: 800px;
+
+}
+.line6{
+  border: 10px;
+  height: 40px;
+  width: 10px;
+  transform: rotate(90deg);
+  position: absolute;
+  background: #f8c9c5;
+  top: 35px;
+  left: 815px;
+  border-radius: 20%;
+}
+
+.line7, .line8{
+height: 30px;
+width: 5px;
+background: #f8c9c5;
+align-content: center;
+position: absolute;
+}
+
+.line7{
+  transform: rotate(45deg);
+  top:  200px;
+  right: 10px;
+}
+.line8{
+transform: rotate(-45deg);
+top:  200px;
+right: 29px;
+}
+.line9, .line10{
+  height: 12px;
+width: 5px;
+background: #f8c9c5;
+align-content: center;
+position: absolute;
+}
+.line9{
+
+    transform: rotate(45deg);
+    top:  200px;
+    right: 42px;
+
+}
+.line10{
+  transform: rotate(-45deg);
+  top: 200px;
+  right: -5px;
+}
